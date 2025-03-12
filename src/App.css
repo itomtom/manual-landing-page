@@ -1,0 +1,7 @@
+html {
+    @apply text-primary-100;
+}
+
+body {
+    @apply font-tt-norms;
+}
