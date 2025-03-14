@@ -11,7 +11,7 @@ export function Hero({ openQuiz }: HeroProps) {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-background bg-cover bg-no-repeat pb-6 sm:min-h-[750px] sm:pb-0">
+    <div className="bg-backgroundMobile bg-cover bg-no-repeat pb-6 sm:min-h-[750px] sm:pb-0 lg:bg-background">
       <header className="pl-6 pt-[30px] sm:pl-[138px]">
         <img src={logo} alt="Manual Logo" />
       </header>

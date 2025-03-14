@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import EDImage from '@/assets/erecetile.png';
+import EDImageMobile from '@/assets/erecetile-mobile.png';
 
 export function ErecetileDysfunction() {
   const { t } = useTranslation();
@@ -19,6 +20,7 @@ export function ErecetileDysfunction() {
         src={EDImage}
         width={370}
         height={445}
+        srcSet={`${EDImageMobile} 375w`}
       />
       <article className="relative flex h-full flex-col justify-center lg:absolute lg:left-[10px] lg:w-[372px]">
         <div className="mb-[10px] text-center text-[10px] font-bold uppercase leading-[15px] tracking-[1.5px] text-primary-200 lg:text-left">
