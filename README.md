@@ -1,6 +1,6 @@
 # Manual Landing Page
 
-![Manual Logo](https://www.manual.co/static/manual-logo.svg)
+![Manual Logo](https://cdn.manual.co/assets/icons/logo.svg)
 
 ## Overview
 
