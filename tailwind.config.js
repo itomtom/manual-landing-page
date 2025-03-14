@@ -9,6 +9,8 @@ export default {
         'primary-300': '#BDCDC5',
         'primary-400': '#E8EFE9',
         'secondary-100': '#7E0707',
+        'secondary-200': '#A83232', // New color
+        'secondary-300': '#D15454', // New color
         'tertiary-100': '#F3F7F4',
       },
       fontFamily: {

@@ -1,31 +1,34 @@
-import EDImage from '../assets/erecetile.png';
+import { useTranslation } from 'react-i18next';
+
+import EDImage from '@/assets/erecetile.png';
 
 export function ErecetileDysfunction() {
+  const { t } = useTranslation();
+
   return (
-    <div className="relative h-[445px] w-[870px] justify-self-center max-md:h-auto">
+    <div className="relative mx-6 size-auto justify-self-center lg:mx-0 lg:h-[445px] lg:w-[870px]">
       <div
-        className="absolute left-[25px] h-full text-[445px] font-bold leading-[510px] text-tertiary-100 max-md:hidden"
+        className="absolute left-[25px] hidden h-full text-[445px] font-bold leading-[510px] text-tertiary-100 lg:block"
         aria-hidden="true"
       >
         02
       </div>
       <img
-        className="absolute right-0 max-md:relative max-md:mx-auto"
+        className="relative right-0 mb-3 place-self-center max-md:mx-auto lg:absolute lg:mb-0"
         alt="Erecetile dysfunction treatment"
         src={EDImage}
         width={370}
         height={445}
       />
-      <article className="absolute left-[10px] flex h-full w-[372px] flex-col justify-center max-md:relative max-md:left-0 max-md:mx-auto max-md:mt-10 max-md:min-w-min">
-        <div className="mb-[10px] text-[10px] font-bold uppercase leading-[15px] tracking-[1.5px] text-primary-200">
-          Erecetile dysfunction
+      <article className="relative flex h-full flex-col justify-center lg:absolute lg:left-[10px] lg:w-[372px]">
+        <div className="mb-[10px] text-center text-[10px] font-bold uppercase leading-[15px] tracking-[1.5px] text-primary-200 lg:text-left">
+          {t('erectileDysfunction.title')}
         </div>
         <h3 className="mb-[22px] text-[28px] font-bold leading-10 text-primary-100">
-          Erections can be a tricky thing. But no need to feel down!
+          {t('erectileDysfunction.headline')}
         </h3>
-        <p className="text-lg font-normal leading-[30px] text-primary-100">
-          We’re working around the clock to bring you a holistic approach to
-          your wellness. From top to bottom, inside and out.
+        <p className="text-justify text-lg font-normal leading-[30px] text-primary-100 lg:text-left">
+          {t('erectileDysfunction.description')}
         </p>
       </article>
     </div>

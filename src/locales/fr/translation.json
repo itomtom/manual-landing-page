@@ -1,0 +1,69 @@
+{
+  "quiz": {
+    "error": {
+      "fetchFailed": "Échec du chargement du quiz. Veuillez réessayer plus tard."
+    },
+    "rejection": {
+      "message": "Malheureusement, nous ne pouvons pas vous prescrire ce médicament. Cela est dû au fait que la finastéride peut altérer les niveaux de PSA, qui peuvent être utilisés pour surveiller le cancer. Vous devriez en discuter davantage avec votre médecin traitant ou un spécialiste si vous souhaitez toujours ce médicament."
+    },
+    "success": {
+      "message": "Excellente nouvelle ! Nous avons le traitement parfait pour votre perte de cheveux. Rendez-vous sur <a className=\"underline\" href=\"https://www.manual.co\" target=\"_blank\" rel=\"noopener noreferrer\">www.manual.co</a>, et préparez-vous à dire bonjour à vos nouveaux cheveux !"
+    },
+    "button": {
+      "close": "Fermer",
+      "back": "Retour",
+      "takeQuiz": "Faire le quiz"
+    },
+    "questions": {
+      "Which image best matches your hair loss?": "Quelle image correspond le mieux à votre perte de cheveux ?",
+      "Have you ever been diagnosed with prostate cancer, or are you currently undergoing PSA/Prostate monitoring?": "Avez-vous déjà été diagnostiqué avec un cancer de la prostate, ou êtes-vous actuellement en cours de surveillance PSA/prostate ?",
+      "Have you ever been diagnosed with breast cancer or noticed any changes in your breast tissue such as lumps, pain, nipple discharge or swelling?": "Avez-vous déjà été diagnostiqué avec un cancer du sein ou remarqué des changements dans votre tissu mammaire tels que des masses, des douleurs, des écoulements mamelonnaires ou un gonflement ?"
+    }
+  },
+  "notFound": {
+    "message": "Oups ! Page non trouvée",
+    "returnHome": "Retour à l'accueil"
+  },
+  "mainSection": {
+    "headline": "Ce que nous pouvons vous aider à traiter"
+  },
+  "hero": {
+    "title": "Prenez soin<br/>de vous",
+    "description": "Nous travaillons jour et nuit pour vous apporter une approche holistique de votre bien-être. De la tête aux pieds, de l'intérieur à l'extérieur."
+  },
+  "footer": {
+    "section": {
+      "product": "Produit",
+      "company": "Entreprise",
+      "info": "Informations",
+      "followUs": "Suivez-nous"
+    },
+    "link": {
+      "popular": "Populaire",
+      "trending": "Tendance",
+      "guided": "Guidé",
+      "products": "Produits",
+      "press": "Presse",
+      "mission": "Mission",
+      "strategy": "Stratégie",
+      "about": "À propos",
+      "support": "Support",
+      "customerService": "Service client",
+      "getStarted": "Commencer"
+    },
+    "copyright": "© 2021 Manual. Tous droits réservés"
+  },
+  "hairLoss": {
+    "title": "Perte de cheveux",
+    "headline": "La perte de cheveux n'est pas irréversible. Nous pouvons vous aider !",
+    "description": "Nous travaillons jour et nuit pour vous apporter une approche holistique de votre bien-être. De la tête aux pieds, de l'intérieur à l'extérieur."
+  },
+  "erectileDysfunction": {
+    "title": "Dysfonction érectile",
+    "headline": "Les érections peuvent être compliquées. Mais ne vous découragez pas !",
+    "description": "Nous travaillons jour et nuit pour vous apporter une approche holistique de votre bien-être. De la tête aux pieds, de l'intérieur à l'extérieur."
+  },
+  "ui": {
+    "loading": "Chargement..."
+  }
+}

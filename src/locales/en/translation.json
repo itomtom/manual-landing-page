@@ -1,0 +1,69 @@
+{
+  "quiz": {
+    "error": {
+      "fetchFailed": "Failed to fetch quiz. Please try again later."
+    },
+    "rejection": {
+      "message": "Unfortunately, we are unable to prescribe this medication for you. This is because finasteride can alter the PSA levels, which may be used to monitor for cancer. You should discuss this further with your GP or specialist if you would still like this medication."
+    },
+    "success": {
+      "message": "Great news! We have the perfect treatment for your hair loss. Proceed to <a className=\"underline\" href=\"https://www.manual.co\" target=\"_blank\" rel=\"noopener noreferrer\">www.manual.co</a>, and prepare to say hello to your new hair!"
+    },
+    "button": {
+      "close": "Close",
+      "back": "Back",
+      "takeQuiz": "Take the quiz"
+    },
+    "questions": {
+      "Which image best matches your hair loss?": "Which image best matches your hair loss?",
+      "Have you ever been diagnosed with prostate cancer, or are you currently undergoing PSA/Prostate monitoring?": "Have you ever been diagnosed with prostate cancer, or are you currently undergoing PSA/Prostate monitoring?",
+      "Have you ever been diagnosed with breast cancer or noticed any changes in your breast tissue such as lumps, pain, nipple discharge or swelling?": "Have you ever been diagnosed with breast cancer or noticed any changes in your breast tissue such as lumps, pain, nipple discharge or swelling?"
+    }
+  },
+  "notFound": {
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  },
+  "mainSection": {
+    "headline": "What we can help with"
+  },
+  "hero": {
+    "title": "Be good<br/>to yourself",
+    "description": "We're working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out."
+  },
+  "footer": {
+    "section": {
+      "product": "Product",
+      "company": "Company",
+      "info": "Info",
+      "followUs": "Follow us"
+    },
+    "link": {
+      "popular": "Popular",
+      "trending": "Trending",
+      "guided": "Guided",
+      "products": "Products",
+      "press": "Press",
+      "mission": "Mission",
+      "strategy": "Strategy",
+      "about": "About",
+      "support": "Support",
+      "customerService": "Customer Service",
+      "getStarted": "Get Started"
+    },
+    "copyright": "© 2021 Manual. All rights reserved"
+  },
+  "hairLoss": {
+    "title": "Hair Loss",
+    "headline": "Hair loss needn't be irreversible. We can help!",
+    "description": "We're working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out."
+  },
+  "erectileDysfunction": {
+    "title": "Erecetile dysfunction",
+    "headline": "Erections can be a tricky thing. But no need to feel down!",
+    "description": "We're working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out."
+  },
+  "ui": {
+    "loading": "Loading..."
+  }
+}
